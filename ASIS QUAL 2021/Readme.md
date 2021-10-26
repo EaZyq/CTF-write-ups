@@ -99,7 +99,7 @@ The first loop loop 10 times so this is what we have
 
 At line 19 function `t()` generates a table and line 20 21 will use that table to fill the 160bytes which was allocated
 
-Load binary to edb-debugger and place breakpoint at function t() then we will have table's address in RAX: [stack1](script/stack1)
+Load binary to edb-debugger and place breakpoint at function t() then we will have table's address in RAX: [stack1](script/stack1.txt)
 
 ![edb2](screenshots/edb2.png)
 
