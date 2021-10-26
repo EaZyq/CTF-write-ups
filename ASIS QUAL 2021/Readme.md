@@ -185,6 +185,7 @@ My ideal is the same as finding license key: try to reverse the `encrypt` functi
 ![encrypt2](screenshots/encrypt2.png)
 
 First `for` loop breaks 8 chars of flag into 4 pairs of 2
+
 `srand()` function generate seed for later use
 
 Now we should capture the seed by set breakpoint in edb
