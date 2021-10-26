@@ -151,7 +151,7 @@ Run the script above we will have `212a3448c81db976e624`
 If we rearrange the output we will have license key: 
 `BEAN-2a21-b91dc84834-24e676`
 
-![testCmd2](screenshots/testCmd2.png)
+![testCmd2](screenshots/lastkey.png)
 
 
 The key was right, but it seems that we still have another task to do
