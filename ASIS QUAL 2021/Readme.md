@@ -453,4 +453,4 @@ After feeding others 4 we will get the flag: `ASIS{DATA_1n_TEXT_1s_4n_34sy_0bfus
 Let's test it
 
 
-![end](screenshots/end.png)
+![bruh](screenshots/bruh.png)
