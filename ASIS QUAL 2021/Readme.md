@@ -448,7 +448,7 @@ Here i feed the `flag[]` list first 4 pairs of 2 bytes and get `ASIS{DAT`
 
 Seems legit
 
-After feeding others 4 we will get the flag: `ASIS{DATA_1n_TEXT_1s_4n_34sy_0bfusc4t10n`
+After feeding others 4 we will get the flag: `ASIS{DATA_1n_TEXT_1s_4n_34sy_0bfusc4t10n}`
 
 Let's test it
 
