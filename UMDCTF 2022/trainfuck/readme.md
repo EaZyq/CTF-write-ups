@@ -84,7 +84,7 @@ They are the parts that give output
 
 We need to find the part that take input
 
-In the code of the tool use to convert .bf file, `,` == `getchar()`
+In the code of the tool use to convert .bf file, `,` = `getchar()`
 
 There are 2 matches for `getchar()` in .c file
 
