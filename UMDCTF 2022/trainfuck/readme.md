@@ -15,6 +15,7 @@ A .tf file that contains many train chars
 Open file in HxD show that there are 8 different chars
 
 So it turns out `trainfuck` is like `brainfuck`
+
 By paying attention to the pattern of all these trains it's easy to find the mapping of these chars
 
 ```python
@@ -106,16 +107,20 @@ I tried to view the buffer before the check
 ![pic7](pic7.png)
 
 We can see `55 4d 44 43 54 ....` is our input
+
 So what are those bytes before that part?
 
 Start reading through the check part, there are several line like `ptr -= 101 (a huge number)` which are really strange
+
 That must be the program tries to switch between blocks of data
-So by adding `for` loop before each of these line to view the buffer, we may relize the algo if it's simple enough
+
+So by adding `for` loop before each of these line to view the buffer, we may realize the algo if it's simple enough
 
 ![pic8](pic8.png)
 
 
 Here `ptr = 1` is `7f` and `ptr = 32` is `55` which is the first char `U`
+
 The algo must be doing sth with one char at a time and then compare it with `7f`
 
 
@@ -123,6 +128,7 @@ The algo must be doing sth with one char at a time and then compare it with `7f`
 
 
 Here the third block of data contains things to compare
+
 We can see for each char there is only 1 result so we maybe can brute-force to get the flag
 
 But the pattern is quite clear that the algo must be simple xor 
