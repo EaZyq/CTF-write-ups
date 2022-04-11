@@ -22,4 +22,4 @@ The breakpoint hit, set a few more breakpoints at line 29 and 35 then continue t
 
 Here we can see the flag
 
-3rmahg3rd.b0b.d0ge@flare-on.com
+'3rmahg3rd.b0b.d0ge@flare-on.com'
