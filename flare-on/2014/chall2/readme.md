@@ -1,4 +1,4 @@
-#Challenge 2
+# Challenge 2
 
 The chall has an .html file and an `img` folder contains an .png file
 
