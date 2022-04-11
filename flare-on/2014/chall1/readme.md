@@ -11,6 +11,7 @@ Try to click the `DECODE!` button
 ![3](3.png)
 
 Load the binary to dnSpy we can see `btnDecode_Click` function that has some math in it
+
 Set a breakpoint and run, then click the button
 
 ![4](4.png)
