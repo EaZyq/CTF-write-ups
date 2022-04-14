@@ -238,6 +238,8 @@ Load the file to dnspy
 
 Nothing much except for this
 
+![19](19.png)
+
 Try to decode that with this script
 
 ```python
